@@ -2,7 +2,9 @@
 layout: post
 title: 'Sonic Sculptural Staircase in Head-Mounted Augmented Reality'
 ---
-### Yichen Wang
+### Yichen Wang, The Australian National University
+### Henry Gardner, The Australian National University
+### Charles Martin, The Australian National University
 
 ## Abstract
 
@@ -29,6 +31,14 @@ In this paper, we describe our sound artwork Sonic Sculptural Staircase that ref
 
 ## Sonic Sculptural Staircase
 Sonic Sculptural Staircase is created upon a staircase at the Hanna Neumann Building at the Australian National University (ANU). The work was designed to be triggered by sonic interaction and walking within the staircase to enhance people's awareness of its aesthetic context. Sound is exploited as the main information channel to covey meaning during this experience. Our sound sources are categorised to three themes: 1) mathematics-related sounds (e.g., chalkboard sketching sound) 2) computer science-related sounds: (e.g., keyboard typing sound) 3) sounds appearing in the building that map the aesthetic context or the occupants working environment (e.g., swipe-card sound).
+
+### Aesthetic Context
+
+The staircase is located at the Hanna Neumann building at the Australian National University, part of the School of Computer Science, Mathematical Sciences Institute and the Statistical Consulting Unit in ANU . Cryptographic and brick patterns surround the building's interiors and architecture to reflect the heritage and culture behind . The staircase at the centre of the building is an interface linking the mathematics and computer science faculties. It was designed in the sculptural form with the concept of  a “collaborative stair”  embedding the message of collaboration across disciplines.
+
+## Design and Development
+
+As illustrated in  , ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
 
 <!-- {% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
