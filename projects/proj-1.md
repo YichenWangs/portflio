@@ -10,7 +10,7 @@ title: 'Sonic Sculptural Staircase in Head-Mounted Augmented Reality'
 
 We present an interactive sound art work, Sonic Sculptural Staircase, that delivers a sonic experience to enhance the appreciation of a sculptural staircase and its surroundings in a head-mounted augmented reality system. Our work includes ten different interactive sonic features with visual overlays to incorporate the staircase for users to explore. We describe the design and implementation of our system and provide a demo video of it in use.
 
-{% include image.html url="http://www.gratisography.com" image="/projects/proj-1/weitong-holo.png" %}
+{% include image.html url="/projects/proj-1/weitong-holo.jpg" image="/projects/proj-1/weitong-holo.jpg" %}
 
 
 ### Author Keywords
