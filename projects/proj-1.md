@@ -90,8 +90,8 @@ Three sonic material included in this work relate to mathematics (e.g. chalkboar
 The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity) and [World Locking Tool (WLT)](https://microsoft.github.io/MixedReality-WorldLockingTools-Unity/README.html) have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in [Cinema4D](https://www.maxon.net/en/cinema-4d) based on its physical structure and used as holograms. The 3D staircase model is composed by series of child holograms(Step 1). Second, the staircase model was manually aligned with the physical staircase using WLT (Step 2). Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (Step 3). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
 
 {% include figure.html image="projects/proj-1/original.png" caption="Original Staircase" %}
-{% include figure.html image="projects/proj-1/c4d-2.png" caption="Step 1: Staircase mode in Cinema4D" %}
-{% include figure.html image="projects/proj-1/unity.png" caption="Step 2 & 3: Sonic Sculptural Staircase Experience Development in Unity" %}
+{% include figure.html image="projects/proj-1/c4d-2.PNG" caption="Step 1: Staircase mode in Cinema4D" %}
+{% include figure.html image="projects/proj-1/unity.PNG" caption="Step 2 & 3: Sonic Sculptural Staircase Experience Development in Unity" %}
 
 
 ## Conclusion
