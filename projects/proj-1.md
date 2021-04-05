@@ -55,7 +55,7 @@ Continuing to walk up the stairs towards the computer science department,  piano
 
  shows Sonic Sculptural Staircase feature details. The design of each feature considers sound, interaction and visual aspects which discussed at the below section.
 
- |    |       Feature Name       |        Sound/Sonic       |  Interaction  |                |            Visual             |
+ |    |       Feature Name       |        Sound/Sonic       |          Interaction        |                |            Visual             |
 |----|:------------------------:|:------------------------:|:-------------:|:--------------:|:-----------------------------:|
 |    |                          |                          | Intentional   | Unintentional  |                               |
 | 1  | “Welcome to Sonic World” |   Swapping card sound    |        √      |                |       Button-like swirl       |
