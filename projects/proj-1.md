@@ -2,7 +2,7 @@
 layout: post
 title: 'Sonic Sculptural Staircase in Head-Mounted Augmented Reality'
 ---
-### Yichen Wang, The Australian National University
+### [Yichen Wang](https://yichenwangs.github.io/yichen/), The Australian National University
 ### [Henry Gardner](http://users.cecs.anu.edu.au/~Henry.Gardner/), The Australian National University
 ### Matt Adcock, Data 61, CSIRO
 ### [Charles Martin](https://charlesmartin.com.au) (Project Lead), The Australian National University
