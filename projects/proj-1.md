@@ -46,7 +46,7 @@ The staircase is located at the Hanna Neumann building at the Australian Nationa
 
 As illustrated in the feature map below, ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
-{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image" %}
+{% include figure.html image="projects/proj-1/feature.jpg" caption="Feature Map" %}
 
 ### Description of User Experience
 
@@ -87,17 +87,15 @@ Three sonic material included in this work relate to mathematics (e.g. chalkboar
 
 ## Implementation Details
 
-The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity) and [World Locking Tool (WLT)](https://microsoft.github.io/MixedReality-WorldLockingTools-Unity/README.html) have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in [Cinema4d](https://www.maxon.net/en/cinema-4d) based on its physical structure and used as holograms. The 3D staircase model is composed by series of child holograms that illustrated in . Second, the staircase model was manually aligned with the physical staircase using WLT. Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
+The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity) and [World Locking Tool (WLT)](https://microsoft.github.io/MixedReality-WorldLockingTools-Unity/README.html) have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in [Cinema4D](https://www.maxon.net/en/cinema-4d) based on its physical structure and used as holograms. The 3D staircase model is composed by series of child holograms(Step 1). Second, the staircase model was manually aligned with the physical staircase using WLT (Step 2). Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (Step 3). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
 
-{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image" %}
-<!-- {% include figure.html image="projects/proj-1/feature.jpg" %}
-{% include figure.html image="projects/proj-1/feature.jpg" %}
- -->
+{% include figure.html image="projects/proj-1/original.png" caption="Original Staircase" %}
+{% include figure.html image="projects/proj-1/c4d-2.png" caption="Step 1: Staircase mode in Cinema4D" %}
+{% include figure.html image="projects/proj-1/unity.png" caption="Step 2 & 3: Sonic Sculptural Staircase Experience Development in Unity" %}
 
-<!-- ## Sonic Sculptural Staircase Demo -->
 
 ## Conclusion
 
 We created an interactive sound art installation on a sculptural staircase using the HoloLens 2 HMAR system. Our work explored different combinations of sound, interaction and visuals to present an immersive experience. Our exploration of an HMAR sonic experience in a real-world location could provide useful insights into how Sonic Interaction Design can contribute to sculptural spaces and how new musical instruments can make use of HMAR platforms.
 
-Our preliminary findings with users indicated that our sonic experience is compelling in terms of the sense of immersion by visual overlays, especially large ones that surrounds users. While the experience of individual  interactive sonic features such as feature 6 or feature 7 in  are relatively isolated in a sense that they have weakened the immersive experience as a whole. These findings encourage us to pursue further studies including, a formal user evaluation, to examine the immersive experience demonstrated by our work.
+Our preliminary findings with users indicated that our sonic experience is compelling in terms of the sense of immersion by visual overlays, especially large ones that surrounds users. While the experience of individual interactive sonic features such as feature 6 or feature 7 in the given table are relatively isolated in a sense that they have weakened the immersive experience as a whole. These findings encourage us to pursue further studies including, a formal user evaluation, to examine the immersive experience demonstrated by our work.
