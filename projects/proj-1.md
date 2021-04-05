@@ -22,15 +22,15 @@ augmented reality, sonic art, architecture, sculpture, HoloLens
 
 ## Introduction 
 
-Sonic Sculptural Staircase is a head-mounted augmented reality (HMAR)  sound artwork that integrates sound, visual overlay and interaction to enhance the appreciation of a sculptural staircase and its surroundings. The work designed ten different interactive sonic features that mainly exploits sound as the main information channel to prompt the user’s engagement and convey the meaning behind the staircase.
+Sonic Sculptural Staircase is a head-mounted augmented reality (HMAR) sound artwork that integrates sound, visual overlay and interaction to enhance the appreciation of a sculptural staircase and its surroundings. The work designed ten different interactive sonic features that mainly exploits sound as the main information channel to prompt the user’s engagement and convey the meaning behind the staircase.
 
-The work is realised with Microsoft HoloLens 2  Augmented Reality(AR) headset and was programmed based upon the 3D staircase model as holograms in Unity. The work explored two different types of sound: context-related recordings and electronic sound,  that combines interaction and visual into AR holograms to present an immersive experience.
+The work is realised with [Microsoft HoloLens 2 Augmented Reality(AR) headset](https://docs.microsoft.com/en-us/hololens/hololens2-options?tabs=device) and was programmed based upon the 3D staircase model as holograms in [Unity](https://docs.unity3d.com/2019.3/Documentation/Manual/index.html). The work explored two different types of sound: context-related recordings and electronic sound,  that combines interaction and visual into AR holograms to present an immersive experience.
 
 {% include image.html image="projects/proj-1/holo.jpg" %}
 
-Previous work in this field has achieved a personalised sonic experience that incorporates real-world features. By embedding sound sources in AR holograms (that model the physical environment), one can directly access the information as well as engage with  a sculpture . Such installations not only augment the user’s experience but also provide a new practice of using sound in HMAR. Other sonic applications in HMAR such as Augmented Piano  and INVISO AR  have explored visual overlays to assist music composition and performance.
+Previous work in this field has achieved a personalised sonic experience that incorporates real-world features. By embedding sound sources in AR holograms (that model the physical environment), one can directly access the information as well as engage with [a sculpture](https://arxiv.org/abs/2012.02311). Such installations not only augment the user’s experience but also provide a new practice of using sound in HMAR. Other sonic applications in HMAR such as [Augmented Piano](https://www.nime.org/proceedings/2020/nime2020_paper80.pdf) and [INVISO AR](https://www.nime.org/proceedings/2020/nime2020_paper24.pdf) have explored visual overlays to assist music composition and performance.
 
-Recent advancements that integrate so-called ‘instinctual interaction’ into HMAR systems enable vivid tactile experiences, allowing the touch, grasp, and movement of virtual objects like one would with real objects as well as interactive aural sensations and feedback . These HMAR affordances advance the interactive potential of mixed reality environments and allow further integration of interactive sound, and visuals. 
+Recent advancements that integrate so-called ‘instinctual interaction’ into HMAR systems enable vivid tactile experiences, allowing the touch, grasp, and movement of virtual objects like one would with real objects as well as [interactive aural sensations and feedback](https://docs.microsoft.com/en-us/windows/mixed-reality/design/interaction-fundamentals). These HMAR affordances advance the interactive potential of mixed reality environments and allow further integration of interactive sound, and visuals. 
 
 In this paper, we describe our sound artwork Sonic Sculptural Staircase that reflects the new development progress in HMAR as well as how sound can be utilised with interaction in a real-world setting. We first introduce the aesthetic background and description of the user experience in our work. We then discuss the design details of interactive sonic features in this sound artwork. We conclude our work by providing a video-demo that illustrates our design.
 
@@ -39,12 +39,13 @@ Sonic Sculptural Staircase is created upon a staircase at the Hanna Neumann Buil
 
 ### Aesthetic Context
 
-The staircase is located at the Hanna Neumann building at the Australian National University, part of the School of Computer Science, Mathematical Sciences Institute and the Statistical Consulting Unit in ANU . Cryptographic and brick patterns surround the building's interiors and architecture to reflect the heritage and culture behind . The staircase at the centre of the building is an interface linking the mathematics and computer science faculties. It was designed in the sculptural form with the concept of  a “collaborative stair”  embedding the message of collaboration across disciplines.
+The staircase is located at the Hanna Neumann building at the Australian National University, [part of the School of Computer Science, Mathematical Sciences Institute and the Statistical Consulting Unit in ANU](https://maths.anu.edu.au/news-events/news/keeping-hanna-neumann’s-legacy-alive-new-hn-building). Cryptographic and brick patterns surround the building's interiors and architecture to [reflect the heritage and culture behind](https://www.worldarchitecturenews.com/article/1588290/coded-building-hanna-neumann-building-australian-national-university). The staircase at the centre of the building is an interface linking the mathematics and computer science faculties. It was designed in the sculptural form with the concept of a [“collaborative stair”](http://clarkekeller.com.au/projects/learning/anu-computer-science-mathematical-sciences-in/) embedding the message of collaboration across disciplines.
 
 ## Design and Development
 
 As illustrated in  , ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
+{% include figure.html image="projects/proj-1/holo.jpg" %}
 
 ### Description of User Experience
 
