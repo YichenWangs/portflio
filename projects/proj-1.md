@@ -46,7 +46,7 @@ The staircase is located at the Hanna Neumann building at the Australian Nationa
 
 As illustrated in the feature map below, ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
-{% include figure.html image="projects/proj-1/feature.jpg" %}
+{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image" %}
 
 ### Description of User Experience
 
@@ -89,10 +89,10 @@ Three sonic material included in this work relate to mathematics (e.g. chalkboar
 
 The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity) and [World Locking Tool (WLT)](https://microsoft.github.io/MixedReality-WorldLockingTools-Unity/README.html) have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in [Cinema4d](https://www.maxon.net/en/cinema-4d) based on its physical structure and used as holograms. The 3D staircase model is composed by series of child holograms that illustrated in . Second, the staircase model was manually aligned with the physical staircase using WLT. Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
 
-{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image"%}
+{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image" %}
+<!-- {% include figure.html image="projects/proj-1/feature.jpg" %}
 {% include figure.html image="projects/proj-1/feature.jpg" %}
-{% include figure.html image="projects/proj-1/feature.jpg" %}
-
+ -->
 
 <!-- ## Sonic Sculptural Staircase Demo -->
 
