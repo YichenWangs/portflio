@@ -10,6 +10,9 @@ title: 'Sonic Sculptural Staircase in Head-Mounted Augmented Reality'
 
 We present an interactive sound art work, Sonic Sculptural Staircase, that delivers a sonic experience to enhance the appreciation of a sculptural staircase and its surroundings in a head-mounted augmented reality system. Our work includes ten different interactive sonic features with visual overlays to incorporate the staircase for users to explore. We describe the design and implementation of our system and provide a demo video of it in use.
 
+ {% include image.html image="/projects/proj-1/weitong-holo.png" %}
+
+
 ### Author Keywords
 
 augmented reality, sonic art, architecture, sculpture, HoloLens
@@ -53,9 +56,11 @@ Continuing to walk up the stairs towards the computer science department,  piano
 
 ### Feature Details
 
+
+
  shows Sonic Sculptural Staircase feature details. The design of each feature considers sound, interaction and visual aspects which discussed at the below section.
 
- |    |       Feature Name       |        Sound/Sonic       |          Interaction        |                |            Visual             |
+ |    |       Feature Name       |        Sound/Sonic       |      Interaction       | |            Visual             |
 |----|:------------------------:|:------------------------:|:-------------:|:--------------:|:-----------------------------:|
 |    |                          |                          | Intentional   | Unintentional  |                               |
 | 1  | “Welcome to Sonic World” |   Swapping card sound    |        √      |                |       Button-like swirl       |
