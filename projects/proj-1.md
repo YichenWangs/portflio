@@ -3,8 +3,9 @@ layout: post
 title: 'Sonic Sculptural Staircase in Head-Mounted Augmented Reality'
 ---
 ### Yichen Wang, The Australian National University
-### Henry Gardner, The Australian National University
-### Charles Martin, The Australian National University
+### [Henry Gardner](http://users.cecs.anu.edu.au/~Henry.Gardner/), The Australian National University
+### Matt Addcock, Data 61, CSIRO
+### [Charles Martin](https://charlesmartin.com.au) (Project Lead), The Australian National University
 
 ## Abstract
 
@@ -43,9 +44,9 @@ The staircase is located at the Hanna Neumann building at the Australian Nationa
 
 ## Design and Development
 
-As illustrated in  , ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
+As illustrated in the feature map below, ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
-{% include figure.html image="projects/proj-1/holo.jpg" %}
+{% include figure.html image="projects/proj-1/feature.jpg" %}
 
 ### Description of User Experience
 
@@ -58,10 +59,7 @@ Continuing to walk up the stairs towards the computer science department,  piano
 ## Sonic Interactive Feature
 
 ### Feature Details
-
-
-
- shows Sonic Sculptural Staircase feature details. The design of each feature considers sound, interaction and visual aspects which discussed at the below section.
+The below table shows Sonic Sculptural Staircase feature details. The design of each feature considers sound, interaction and visual aspects which discussed at the below section.
 
  |    |       Feature Name       |        Sound/Sonic       |      Interaction       | |            Visual             |
 |----|:------------------------:|:------------------------:|:-------------:|:--------------:|:-----------------------------:|
@@ -85,22 +83,21 @@ Intentional interaction, refers to interactions that requires the user to active
 
 ### Sounds 
 
-Three sonic material included in this work relate to mathematics (e.g. chalkboard writing), computing (e.g., keyboard typing ), or the working environment and aesthetic context of the building (e.g., swipe-card sounds). Two types of sound sources: context-related and electronic are used in this installation.  The context-related sound sources were pre-collected in the Hanna Neumann building using an audio recorder. The electronic sound is generated in real-time using the Disunity Synthesiser Toolkit(DisunityST), a C# audio  library focussed on enabling audio synthesis implementations in Unity. DisunityST is used to generate sci-fi-like sounds in feature 4 ().
+Three sonic material included in this work relate to mathematics (e.g. chalkboard writing), computing (e.g., keyboard typing ), or the working environment and aesthetic context of the building (e.g., swipe-card sounds). Two types of sound sources: context-related and electronic are used in this installation.  The context-related sound sources were pre-collected in the Hanna Neumann building using an audio recorder. The electronic sound is generated in real-time using the Disunity Synthesiser Toolkit ([DisunityST](https://github.com/digego/DisunityST)), a C# audio  library focussed on enabling audio synthesis implementations in Unity. DisunityST is used to generate sci-fi-like sounds in feature 4 in the table.
 
 ## Implementation Details
 
-The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's Mixed Reality Toolkit (MRTK)  and World Locking Tool (WLT)  have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in Cinema4d  based on its physical structure ( ) and used as holograms. The 3D staircase model is composed by series of child holograms that illustrated in . Second, the staircase model was manually aligned with the physical staircase using WLT. Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
+The experience was realised using a Microsoft Hololens 2 AR headset and programmed in Unity version 2019.3.7.f1. The Microsoft's [Mixed Reality Toolkit (MRTK)](https://github.com/microsoft/MixedRealityToolkit-Unity) and [World Locking Tool (WLT)](https://microsoft.github.io/MixedReality-WorldLockingTools-Unity/README.html) have been applied during the sonic experience development to design location-specific sonic interactions. The implementation contains three steps. First, the real-world staircase was modelled in [Cinema4d](https://www.maxon.net/en/cinema-4d) based on its physical structure and used as holograms. The 3D staircase model is composed by series of child holograms that illustrated in . Second, the staircase model was manually aligned with the physical staircase using WLT. Third, sound sources, visuals and interactions are integrated to specific child holograms to realise ten different sonic interactive features in Unity (). Hand interactions are achieved with MRTK while presence interactions use collision detection scripts written in C# in the Unity back-end environment.
 
-## Sonic Sculptural Staircase Demo
+{% include figure.html image="projects/proj-1/feature.jpg" caption="caption for image"%}
+{% include figure.html image="projects/proj-1/feature.jpg" %}
+{% include figure.html image="projects/proj-1/feature.jpg" %}
+
+
+<!-- ## Sonic Sculptural Staircase Demo -->
 
 ## Conclusion
 
 We created an interactive sound art installation on a sculptural staircase using the HoloLens 2 HMAR system. Our work explored different combinations of sound, interaction and visuals to present an immersive experience. Our exploration of an HMAR sonic experience in a real-world location could provide useful insights into how Sonic Interaction Design can contribute to sculptural spaces and how new musical instruments can make use of HMAR platforms.
 
 Our preliminary findings with users indicated that our sonic experience is compelling in terms of the sense of immersion by visual overlays, especially large ones that surrounds users. While the experience of individual  interactive sonic features such as feature 6 or feature 7 in  are relatively isolated in a sense that they have weakened the immersive experience as a whole. These findings encourage us to pursue further studies including, a formal user evaluation, to examine the immersive experience demonstrated by our work.
-
-
-
-<!-- {% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
-
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/wall.jpg" %} -->
