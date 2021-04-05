@@ -45,7 +45,7 @@ The staircase is located at the Hanna Neumann building at the Australian Nationa
 
 As illustrated in  , ten different interactive sonic features are placed deliberately at different parts of the staircase.  These features enable the user to have different views of the building’s interior with sonic information mapped to the real-world context. 
 
-{% include figure.html image="projects/proj-1/holo.jpg" %}
+{% include figure.html url= "no... " image="projects/proj-1/holo.jpg" %}
 
 ### Description of User Experience
 
