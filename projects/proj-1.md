@@ -27,7 +27,7 @@ Sonic Sculptural Staircase is a head-mounted augmented reality (HMAR) sound artw
 
 The work is realised with [Microsoft HoloLens 2 Augmented Reality(AR) headset](https://docs.microsoft.com/en-us/hololens/hololens2-options?tabs=device) and was programmed based upon the 3D staircase model as holograms in [Unity](https://docs.unity3d.com/2019.3/Documentation/Manual/index.html). The work explored two different types of sound: context-related recordings and electronic sound,  that combines interaction and visual into AR holograms to present an immersive experience.
 
-{% include image.html image="projects/proj-1/holo.jpg" caption = "Microsoft HoloLens 2"%}
+{% include image.html url="https://youtu.be/T8BUE3qjaow" image="projects/proj-1/holo.jpg" caption = "Microsoft HoloLens 2"%}
 
 Previous work in this field has achieved a personalised sonic experience that incorporates real-world features. By embedding sound sources in AR holograms (that model the physical environment), one can directly access the information as well as engage with [a sculpture](https://arxiv.org/abs/2012.02311). Such installations not only augment the user’s experience but also provide a new practice of using sound in HMAR. Other sonic applications in HMAR such as [Augmented Piano](https://www.nime.org/proceedings/2020/nime2020_paper80.pdf) and [INVISO AR](https://www.nime.org/proceedings/2020/nime2020_paper24.pdf) have explored visual overlays to assist music composition and performance.
 
