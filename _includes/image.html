@@ -9,6 +9,9 @@
           View Demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
         {% endif %}
       </div>
+      {% if include.caption %}
+      <p class="image-caption">{{ include.caption }}</p>
+      {% endif %}
     </div>
   </a>
 </div>
